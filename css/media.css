@@ -1,5 +1,5 @@
  /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { 
+@media (min-width: 320px) and (max-width: 575.98px) { 
 /*header start*/
 
         .n_serch a {
@@ -48,6 +48,25 @@
     padding-top: 35vh;
 }
 /*slider end*/
+/*About US start*/
+.cm-title {
+    margin-top: 13px !important;
+    font-size: 29px !important;
+}
+.middle-p {
+    font-size: 16px !important;
+    margin-top: 21px !important;
+}
+.last-p {
+    margin-bottom: 22px !important;
+    font-size: 14px !important;
+}
+.cm-title {
+    border-bottom: 1px solid !important;
+    margin-top: 13px !important;
+    font-size: 29px !important;
+}
+/*About US end*/
 }
 
  /*Small devices (landscape phones, 576px and up)*/
@@ -72,6 +91,25 @@
     right: 73%;
 }
 /*slider end*/
+/*About US start*/
+.cm-title {
+    margin-top: 23px !important;
+    font-size: 33px !important;
+}
+.middle-p {
+    font-size: 15px !important;
+    margin-top: 20px !important;
+    margin-bottom: 19px !important;
+}
+.last-p {
+    margin-bottom: 12px !important;
+    font-size: 16px !important;
+}
+.cm-btn_a {
+    padding: 6px 9px !important;
+    margin-bottom: -25px !important;
+}
+/*About US end*/
 }
 
  /*Medium devices (tablets, 768px and up)*/
@@ -92,6 +130,25 @@
     right: 80%;
 }
 /*slider end*/
+/*About US start*/
+.cm-title {
+    margin-top: 0px !important;
+    font-size: 33px !important;
+}
+.middle-p {
+    font-size: 13px !important;
+    margin-top: 0px !important;
+    margin-bottom: 12px !important;
+}
+.last-p {
+    margin-bottom: 10px !important;
+    font-size: 10px !important;
+}
+.cm-btn_a {
+    padding: 4px 2px !important;
+    margin-bottom: 0px !important;
+}
+/*About US end*/
 }
 
  /*Large devices (desktops, 992px and up)*/
@@ -102,6 +159,25 @@
 }
 /*slider end*/
  }
+/*About US start*/
+.cm-title {
+    margin-top: -22px;
+    font-size: 32px;
+}
+.middle-p {
+    font-size: 13px;
+    margin-top: 23px;
+    margin-bottom: 21px;
+}
+.last-p {
+    margin-bottom: 26px;
+    font-size: 13px;
+}
+.cm-btn_a {
+    padding: 6px 10px;
+    margin-bottom: -26px;
+}
+/*About US end*/
 
 /*Large devices (desktops, 1200px and up)*/
 @media (min-width: 1200px) and (max-width: 1399.98px) { 
@@ -110,7 +186,40 @@
     right: 87%;
 }
 /*slider end*/
- }
+/*About US start*/
+.cm-title {
+    font-size: 38px;
+}
+.middle-p {
+    font-size: 16px;
+    margin-top: 35px;
+    margin-bottom: 32px;
+}
+.last-p {
+    font-size: 15px;
+}
+/*About US end*/
+}
 
  /*Extra large devices (large desktops, 1400px and up)*/
-@media (min-width: 1400px) { ... }
+@media (min-width: 1400px) { 
+/*About US start*/
+.cm-title{
+    font-size: 30px;
+}
+.cm-title{
+    font-size: 30px;
+}
+.middle-p{
+    font-size: 17px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.last-p{
+    font-size: 16px;
+}
+.cm-btn_a{
+    padding: 10px 30px;
+}
+/*About US end*/
+}
